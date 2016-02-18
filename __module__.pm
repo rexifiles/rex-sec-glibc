@@ -17,13 +17,6 @@ task 'setup', sub {
 	pkg "locales",
 		ensure => "2.19-18+deb8u3",
 	 	on_change => sub { say "package was installed/updated"; };
-
- };
-
-	unless ($server) {
-		say "No server defined. Define server=10.10.10.10";
-		exit 1;
-	};
 };
 
 desc 'Remove ossec agent';
