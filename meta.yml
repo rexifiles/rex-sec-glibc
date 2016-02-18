@@ -1,0 +1,6 @@
+Name: Rex::Sec::Glibc
+Description: Checks the glibc, and updates it where required. 
+Author: xarlos <xarlos@xarlos.me>
+License: Apache 2.0
+Require:
+  - Rex::Ext::ParamLookup
