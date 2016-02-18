@@ -1,4 +1,4 @@
-package Rex::Ossec::Base; 
+package Rex::Sec::Glibc; 
 use Rex -base;
 
 desc 'update glibc';
