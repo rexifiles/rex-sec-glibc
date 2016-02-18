@@ -10,7 +10,7 @@ task 'setup', sub {
 		ensure => "2.19-18+deb8u3",
 	 	on_change => sub { say "package was installed/updated"; };
 
-	pkg "libc6-bin",
+	pkg "libc-bin",
 		ensure => "2.19-18+deb8u3",
 	 	on_change => sub { say "package was installed/updated"; };
 
